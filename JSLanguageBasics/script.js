@@ -301,3 +301,31 @@ if (scoreJohn > scoreMike && scoreJohn > scoreMary) {
 * Functions
 */
 
+/*function calculateAge(birthYear) {
+    return 2018 - birthYear;
+}
+
+var ageEllis = calculateAge(1990);
+var ageSahara = calculateAge(1948);
+var ageCeela = calculateAge(1969);
+
+console.log(ageEllis, ageSahara, ageCeela);
+
+function yearsUntilRetirement(year, firstName) {
+    var age = calculateAge(year);
+    var retirement =  65 - age;
+
+    if (retirement > 0) {
+    console.log(firstName + ' retires in ' + retirement + ' years.');
+    } else {
+        console.log(firstName + ' is already retired.')
+    }
+}
+
+yearsUntilRetirement(1990, 'Ellis');
+yearsUntilRetirement(1948, "Sahara");
+yearsUntilRetirement(1969, "Ceela"); */
+
+/*****************
+* Function Statements and Expressions
+*/
