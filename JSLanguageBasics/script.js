@@ -273,7 +273,7 @@ if (height == '23') {
 /****************
 * Coding Challenge 2
 */
-
+/*
 var scoreJohn = (89 + 120 + 103) / 3;
 var scoreMike = (116 + 94 + 123) / 3;
 var scoreMary = (97 + 134 + 105) / 3;
@@ -288,7 +288,7 @@ if (scoreJohn > scoreMike && scoreJohn > scoreMary) {
 } else{
     console.log('There is a draw');
 }
-
+*/
 /*if (scoreJohn > scoreMike) {
     console.log('John\'s team with ' + scoreJohn + ' points');
 } else if (scoreMike > scoreJohn) {
@@ -297,5 +297,7 @@ if (scoreJohn > scoreMike && scoreJohn > scoreMary) {
     console.log('There is a draw.');
 }*/
 
-
+/*****************
+* Functions
+*/
 
