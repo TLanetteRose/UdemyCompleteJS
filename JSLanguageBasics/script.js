@@ -390,7 +390,7 @@ console.log(isDesigner);*/
 */
 
 
-function tipCalculator(bill) {
+/*function tipCalculator(bill) {
     var percentage;
     if (bill < 50) {
         percentage = .2;
@@ -406,4 +406,37 @@ var bills = [124, 48, 268];
 var tips = [tipCalculator(bills[0]), tipCalculator(bills[1]), tipCalculator(bills[2])];
 var finalValues = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
-console.log(tips, finalValues);
+console.log(tips, finalValues); */
+
+/*******
+* Objects and Properties
+*/
+
+/*var john = {
+    firstName: 'John', 
+    lastName: 'Smith',
+    birthYear: 1990,
+    family: ['Tamsin', 'Ellis', 'Ella'],
+    job: 'teacher',
+    isMarried: false 
+}; 
+console.log(john.firstName);
+console.log(john['lastName']);
+var x = 'birthYear';
+console.log(john[x]);
+
+//Mutate or change properties 
+john.job = 'designer';
+john['isMarried']=true;
+console.log(john);
+
+// new Object syntax
+var jane = new Object();
+jane.name = 'Jane';
+jane.birthYear = 1969;
+jane['lastName'] = 'Smith';
+console.log(jane);*/
+
+/*****
+* Objects and Methods
+*/
