@@ -440,3 +440,18 @@ console.log(jane);*/
 /*****
 * Objects and Methods
 */
+
+var john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    birthYear: 1992,
+    family: ['Tamsin', 'Ellis', 'Ella'],
+    job: 'teacher',
+    isMarried: false,
+    calcAge: function() {
+        return 2018 - this.birthYear; 
+    }
+};
+
+console.log(john.calcAge());
+
