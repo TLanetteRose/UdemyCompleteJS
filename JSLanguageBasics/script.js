@@ -329,3 +329,38 @@ yearsUntilRetirement(1969, "Ceela"); */
 /*****************
 * Function Statements and Expressions
 */
+//Function Declaration
+//function whatDoYouDo(job, firstName) {}
+
+//Function Expression
+/*var whatDoYouDo = function(job, firstName) {
+    switch(job){
+        case 'teacher':
+            return firstName + ' teaches kids how to code';
+        case 'driver':
+            return firstName + ' drives a cab in Lisbon.';
+        case 'designer':
+            return firstName + ' designs beautiful websites.';
+        default:
+            return firstName + ' does something else';
+    }
+}
+
+console.log(whatDoYouDo('teacher', 'Ellis'));
+console.log(whatDoYouDo('designer', 'Tamsin'));
+console.log(whatDoYouDo('driver', 'Clio'));*/
+//JS expression always gives an immediate value
+//JS statements perform actions
+
+/*****************
+ * Arrays
+ */
+
+var names = ['Tamsin', 'Ellis', 'Clio'];
+var years = new Array(1990, 1969, 1948); 
+console.log(names[2]);
+console.log(names.length);
+
+names[1] = 'Ariadne';
+names[5] = 'Ramses';
+console.log(names);
