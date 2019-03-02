@@ -460,7 +460,7 @@ console.log(john); */
 /*****
 * Coding Challenge 4
 */
-
+/*
 var mark = {
     fullName: 'Mark Stevens',
     mass: 78,
@@ -473,7 +473,7 @@ var mark = {
 
 var john = {
     fullName: 'John Franks',
-    mass: 92,
+    mass: 110,
     height: 1.95,
     calcBMI: function() {
         this.bmi = this.mass / (this.height * 2);
@@ -483,13 +483,30 @@ var john = {
 
 
 
-john.calcBMI();
-mark.calcBMI();
-
-if (john.bmi > mark.bmi) {
+if (john.calcBMI() > mark.calcBMI()) {
     console.log(john.fullName + ' has a higher BMI of ' + john.bmi);
-} else if (mark.bmi > john.bmi) {
+} else if (mark.calcBMI() > john.calcBMI()) {
     console.log(mark.fullName + ' has a higher BMI of ' + mark.bmi); 
 } else {
     console.log(john.fullName + mark.fullName + ' have the same BMI.')
 };
+*/
+
+/*********
+* Loops and Iteration
+*/
+
+// For Loop
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+}
+// i = 0, 0 < 10 is true, log i to console, i++
+// i = 1, 1 < 10 is true, log i to console, i++
+// ...
+// i = 9, 9 < 10 is true, log to console, i++
+// i = 10, 10 < 10 is FALSE, exit loop
+
+var john = ['John', 'Smith', 1990, 'designer', false];
+for (var i = 0; i < john.length; i++) {
+    console.log(john[i]);
+}
